@@ -1,0 +1,42 @@
+.polaroid {
+    position: relative;
+    width: 220px ;
+ 
+  }
+   
+  .polaroid img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #333;
+    transition: all 1.5s ease;
+    width: 220px !important;
+    height: 220px !important;
+    padding: 4px;
+  }
+
+  .polaroid span {
+    position: relative;
+text-align: center;
+text-align: center;
+    position: relative;
+    padding: 0 0 0 110px ;
+  }
+
+  .gallery .content2 {
+    padding: 4px;
+  }
+  .likeButton {
+    border: none;
+    color: #555454 !important;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    }
+    .likeButton:hover {
+        color: #800606 !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+        transition: all 0.3s ease 0s;
+        }
+    

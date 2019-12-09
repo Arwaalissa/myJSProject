@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+	Sticker and gif search app
+	By: Arwa Al-issa
+
+-->
+<html>
+	<head>
+		<title>Gallery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/loader.css" />
+		<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	</head>
+	<body onload="getAllImagesOfUser();">
+			  <!------ page loader ---------->
+			  <div id="preloader" style="display: none">
+					<div id="loader" style="display: none"></div>
+				  </div>
+		<div class="page-wrap">
+
+			<!-- Nav -->
+			<nav id="nav">
+					<ul id="nav-menu">
+						<li><a href="index.html" ><span class="icon fa-home"></span></a></li>
+						<li><a data-toggle="modal" data-target="#exampleModal" 
+							 ><span class="icon fa-user"></span></a>
+						</li>
+
+						
+						<!-- <li><a href="gallery.html"><span class="icon fa fa-heart"></span></a></li> -->
+						<li><a href="contact.html"><span class="icon fa-file-text-o"></span></a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<section id="main">
+
+					<!-- Header -->
+						<header id="header">
+							<div>My Stickers <span>by Arwa</span></div>
+						</header>
+
+					<!-- Gallery -->
+						<section id="galleries">
+
+							<!-- Photo Galleries -->
+								<div class="gallery">
+
+									<!-- Filters -->
+										<header>
+											<h1>Gallery</h1>
+										
+										</header>
+										<div class="content">
+												<!-- <div class=" polaroid content2">
+													<img src="images/fulls/giphy-1.gif" alt="" title="This right here is a caption." />
+													
+													<a href="images/fulls/giphy-1.gif" >
+		
+														<span class="likeButton icon fa fa-heart" ></span></a>
+													
+												</div> -->
+										
+											</div>
+								</div>
+						</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+								<div class="copyright">
+									&copy; Rights Reserved to: <a href="#">Arwa</a>.
+								</div>
+							</footer>
+				</section>
+		</div>
+<!---- Login -->
+	  <!-- Modal -->
+	  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			  <div class="modal-content">
+			
+				<div class="modal-body">
+				  <form>
+					<div class="form-group">
+					  <label for="user-name" class="col-form-label">User Name:</label>
+					  <input type="text" class="form-control" id="user-name">
+					</div>
+					<div class="form-group">
+					  <label for="pw" class="col-form-label">Password:</label>
+					  <input type="password" class="form-control" id="pw"></textarea>
+					</div>
+				  </form>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-info btn-lg" id="openLogin">
+						<span class="glyphicon glyphicon-log-in"></span> Log in</button>
+					</button>
+				  <button type="button" class="btn btn-info btn-lg" class="btn btn-secondary" data-dismiss="modal" id="Logout">
+						<span class="glyphicon glyphicon-log-out"></span> Log out</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+			<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.poptrox.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/skel.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+				<script src="assets/js/app.js"></script>
+				<script src="assets/js/key.js"></script>
+				<script src="assets/js/login.js"></script>
+				<script src="assets/js/gallery.js"></script>
+				  <!-- Firebase CDN -->
+
+	</body>
+</html>
