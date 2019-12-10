@@ -29,8 +29,8 @@ text-align: center;
     border: none;
     color: #555454 !important;
     padding: 10px;
-    text-transform: uppercase;
-    display: inline-block;
+    /* text-transform: uppercase;
+    display: inline-block; */
     transition: all 0.3s ease 0s;
     }
     .likeButton:hover {
