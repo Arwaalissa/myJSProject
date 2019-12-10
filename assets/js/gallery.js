@@ -32,7 +32,7 @@ function getAllImagesOfUser() {
             });
       
             let sticker = $('<img>').attr('src', imageURL).addClass('image');
-            let fav = $('<span>').css('align', 'center').addClass('likeButton icon fa fa-heart');
+            let fav = $('<span>').css('align', 'center').addClass(' icon fa fa-heart');
     
             stickerATag.append(fav);
             stickerDiv.append(sticker);
